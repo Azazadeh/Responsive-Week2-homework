@@ -21,6 +21,7 @@ h1 {
 
 h2 {
   font-size: 48px;
+  text-align: left;
 }
 
 h3 {
@@ -29,12 +30,14 @@ h3 {
 }
 
 p {
-  background: var(--secondary-color);
-  padding: 20px;
-  border-radius: 4px;
+  padding: 0px;
+
   font-size: 18px;
   line-height: 1.5;
-  text-align: center;
+  text-align: left;
+}
+a:hover {
+  color: #0a58ca;
 }
 
 .navigation-links {
@@ -91,4 +94,13 @@ p {
 
 .text-center {
   text-align: center !important;
+}
+.primary-link {
+  background: var(--primary-color);
+  color: white;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  box-shadow: var(--box-shadow);
 }
