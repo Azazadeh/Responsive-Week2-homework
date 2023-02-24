@@ -12,7 +12,6 @@ h1,
 h2,
 h3 {
   text-align: center;
-  margin: 0;
 }
 
 h1 {
@@ -100,4 +99,7 @@ a:hover {
   text-decoration: none;
   text-transform: capitalize;
   box-shadow: var(--box-shadow);
+}
+.weather-photo {
+  padding-top: 25px;
 }
