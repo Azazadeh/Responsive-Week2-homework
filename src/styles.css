@@ -6,22 +6,20 @@
 
 @media (max-width: 600px) {
   .nav-link {
-    font-size: 28px;
+    font-size: 24px;
   }
   .navbar-brand {
-    font-size: 32px;
+    font-size: 30px;
   }
- 
-  .navigation-links a, .primary-link {
-    padding: 25px 20px;
-    font-size: 22px;
+
+  .navigation-links a,
+  .primary-link {
+    padding: 23px 17px;
+    font-size: 20px;
   }
   h3 {
-    font-size: 32px;
-    margin: 30 0 30 0;
-  }
-  p {
-    font-size: 24px;
+    font-size: 30px;
+    margin: 20 0 20 0;
   }
 }
 
@@ -58,7 +56,6 @@ h4 {
 
 p {
   padding: 0px;
-  font-size: 18px;
   line-height: 1.5;
 }
 a:hover {
@@ -101,14 +98,9 @@ a:hover {
   text-align: center;
   display: block;
 }
-
-.about-paragraphs {
-  margin: 30px 0;
-}
-
 .about-paragraphs p {
-  margin-right: 150px;
-  margin-left: 150px;
+  margin-right: 50px;
+  margin-left: 50px;
 }
 
 .email-link {
