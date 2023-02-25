@@ -4,6 +4,27 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+@media (max-width: 600px) {
+  .nav-link {
+    font-size: 28px;
+  }
+  .navbar-brand {
+    font-size: 32px;
+  }
+ 
+  .navigation-links a, .primary-link {
+    padding: 25px 20px;
+    font-size: 22px;
+  }
+  h3 {
+    font-size: 32px;
+    margin: 30 0 30 0;
+  }
+  p {
+    font-size: 24px;
+  }
+}
+
 body {
   margin-top: 100px;
   margin-bottom: 50px;
@@ -28,24 +49,28 @@ h3 {
   font-size: 24px;
   opacity: 0.7;
 }
-h4{
-
+h4 {
   font-size: 40px;
   opacity: 0.9;
   text-align: center;
-margin-top: 30px;
+  margin-top: 30px;
 }
 
 p {
   padding: 0px;
   font-size: 18px;
   line-height: 1.5;
- 
 }
 a:hover {
-  color: #0a58ca;
+  color: rgb(0, 2, 116);
 }
-
+.nav-link {
+  font-size: 18px;
+}
+.nav-hover:hover {
+  color: var(--primary-color);
+  font-weight: bold;
+}
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -82,7 +107,7 @@ a:hover {
 }
 
 .about-paragraphs p {
-   margin-right: 150px;
+  margin-right: 150px;
   margin-left: 150px;
 }
 
